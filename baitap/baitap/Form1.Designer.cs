@@ -30,31 +30,54 @@
         {
             label1 = new Label();
             txtusername = new TextBox();
+            txtmatkhau = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(130, 65);
+            label1.Location = new Point(114, 49);
             label1.Name = "label1";
-            label1.Size = new Size(75, 20);
+            label1.Size = new Size(60, 15);
             label1.TabIndex = 0;
             label1.Text = "Username";
             // 
             // txtusername
             // 
-            txtusername.Location = new Point(241, 63);
+            txtusername.Location = new Point(211, 47);
+            txtusername.Margin = new Padding(3, 2, 3, 2);
             txtusername.Name = "txtusername";
-            txtusername.Size = new Size(125, 27);
+            txtusername.Size = new Size(110, 23);
             txtusername.TabIndex = 1;
+            // 
+            // txtmatkhau
+            // 
+            txtmatkhau.Location = new Point(211, 93);
+            txtmatkhau.Margin = new Padding(3, 2, 3, 2);
+            txtmatkhau.Name = "txtmatkhau";
+            txtmatkhau.Size = new Size(110, 23);
+            txtmatkhau.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(114, 95);
+            label2.Name = "label2";
+            label2.Size = new Size(57, 15);
+            label2.TabIndex = 2;
+            label2.Text = "Mật khẩu";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
+            Controls.Add(txtmatkhau);
+            Controls.Add(label2);
             Controls.Add(txtusername);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -65,5 +88,7 @@
 
         private Label label1;
         private TextBox txtusername;
+        private TextBox txtmatkhau;
+        private Label label2;
     }
 }
