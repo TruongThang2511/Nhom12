@@ -30,7 +30,7 @@
         {
             label1 = new Label();
             txtusername = new TextBox();
-            txtpassword = new TextBox();
+            txtmatkhau = new TextBox();
             label2 = new Label();
             btnlogin = new Button();
             SuspendLayout();
@@ -40,7 +40,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(130, 65);
             label1.Name = "label1";
-            label1.Size = new Size(75, 20);
+            label1.Size = new Size(107, 20);
             label1.TabIndex = 0;
             label1.Text = "Tên đăng nhập";
             // 
@@ -51,12 +51,12 @@
             txtusername.Size = new Size(125, 27);
             txtusername.TabIndex = 1;
             // 
-            // txtpassword
+            // txtmatkhau
             // 
-            txtpassword.Location = new Point(241, 124);
-            txtpassword.Name = "txtpassword";
-            txtpassword.Size = new Size(125, 27);
-            txtpassword.TabIndex = 3;
+            txtmatkhau.Location = new Point(241, 124);
+            txtmatkhau.Name = "txtmatkhau";
+            txtmatkhau.Size = new Size(125, 27);
+            txtmatkhau.TabIndex = 3;
             // 
             // label2
             // 
@@ -65,7 +65,7 @@
             label2.Name = "label2";
             label2.Size = new Size(70, 20);
             label2.TabIndex = 2;
-            label2.Text = "Password";
+            label2.Text = "Mat khau";
             // 
             // btnlogin
             // 
@@ -73,7 +73,7 @@
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(94, 29);
             btnlogin.TabIndex = 4;
-            btnlogin.Text = "Login";
+            btnlogin.Text = "Dang Nhap";
             btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -82,7 +82,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 451);
             Controls.Add(btnlogin);
-            Controls.Add(txtpassword);
+            Controls.Add(txtmatkhau);
             Controls.Add(label2);
             Controls.Add(txtusername);
             Controls.Add(label1);
@@ -96,7 +96,7 @@
 
         private Label label1;
         private TextBox txtusername;
-        private TextBox txtpassword;
+        private TextBox txtmatkhau;
         private Label label2;
         private Button btnlogin;
     }
