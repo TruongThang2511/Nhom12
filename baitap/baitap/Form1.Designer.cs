@@ -39,9 +39,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(114, 49);
             label1.Name = "label1";
-            label1.Size = new Size(60, 15);
+            label1.Size = new Size(85, 15);
             label1.TabIndex = 0;
-            label1.Text = "Username";
+            label1.Text = "Tên đăng nhập";
             // 
             // txtusername
             // 
